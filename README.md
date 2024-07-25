@@ -29,6 +29,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <p>Then in "region" box,  will be the sever hosting our resource group. I chose South Central US since this is the clostest to me.</p>
   <img src="https://i.imgur.com/mpJPego.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
   <img src="https://i.imgur.com/oM3IWzI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+  <p>Alright! Creating a Resource group is done! </p>
 
   
 - Step 2
