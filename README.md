@@ -22,17 +22,26 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Steps</h2>
 
 - Step 1
-  <p> Make two visual machines </p>
-  ![image](https://github.com/user-attachments/assets/7b979c06-2fb3-42b1-b109-89c01eed00de)
+  <p> Create a resource group </p>
+  <img src="https://i.imgur.com/QfyAlBl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+  <img src="https://i.imgur.com/tRtZnw7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+  <img src="https://i.imgur.com/QfyAlBl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+  <img src="https://i.imgur.com/QfyAlBl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
+  
 - Step 2
 - Step 3
 - Step 4
 
+![image](https://github.com/user-attachments/assets/84dcdc12-2410-48ea-a3a8-b3c462fd8d33)
+
+  
+
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="![image](https://github.com/user-attachments/assets/8b79d074-1378-4446-85c9-d0a034a00336)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
