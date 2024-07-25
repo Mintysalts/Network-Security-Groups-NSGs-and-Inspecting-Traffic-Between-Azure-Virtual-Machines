@@ -23,12 +23,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Step 1
   <p> Create a resource group </p>
-  <img src="https://i.imgur.com/QfyAlBl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
-  <img src="https://i.imgur.com/tRtZnw7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+  <img src="https://i.imgur.com/QfyAlBl.png" height="50%" width="50%" alt="Create a resource group steps"/> 
+  <img src="https://i.imgur.com/tRtZnw7.png" height="50%" width="50%" alt="Create a resource group steps"/> 
   <p>In the image below, the box "Resource group" will be the name of your resource group. I chose mine to be RG-Lab-02 </p>
   <p>Then in "region" box,  will be the sever hosting our resource group. I chose South Central US since this is the clostest to me.</p>
-  <img src="https://i.imgur.com/mpJPego.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
-  <img src="https://i.imgur.com/oM3IWzI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+  <img src="https://i.imgur.com/mpJPego.png" height="50%" width="50%" alt="Create a resource group steps"/> 
+  <img src="https://i.imgur.com/oM3IWzI.png" height="50%" width="50%" alt="Create a resource group steps"/> 
   <p>Alright! Creating a Resource group is done! </p>
 
   
