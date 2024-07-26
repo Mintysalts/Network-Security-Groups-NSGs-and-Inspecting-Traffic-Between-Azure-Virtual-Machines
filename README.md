@@ -23,20 +23,20 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 1. Create a resource group
    
-  - In the Azure portal, you will start by clicking on "Resurce groups"
+  - In the Azure portal, you will start by clicking on "Resurce groups".
   <p align="center">
   <img src="https://i.imgur.com/QfyAlBl.png" height="80%" width="80%" alt="Create a resource group steps"/> 
   </p>
 
-  - Once you see the page like the image below, go ahead and click on "Create"
+  - Once you see the page like the image below, go ahead and click on "Create".
  <p align="center">
   <img src="https://i.imgur.com/tRtZnw7.png" height="80%" width="80%" alt="Create a resource group steps"/>
   </p>
 
   
-  -  In the box "Resource group" will be the name of your resource group. I chose mine to be RG-Lab-02
+  -  In the box "Resource group" will be the name of your resource group. I chose mine to be RG-Lab-02.
   -  Then in "region" box,  will be the sever hosting our resource group. I chose South Central US since this is the clostest to me.
-  -  Once you are done will out the boxes, click on "Review and create"
+  -  Once you are done will out the boxes, click on "Review and create".
 <p align="center">
   <img src="https://i.imgur.com/mpJPego.png" height="50%" width="50%" alt="Create a resource group steps"/> 
   </p>
@@ -48,21 +48,34 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 2. Create two Vitual machines. One in Windows 10 (21H2) and the other in Ubuntu Server 20.04.
 
-  -  Go to the Search bar to type in vitual machines and the option should appear
+  -  Go to the Search bar to type in vitual machines and the option should appear.
 ![Screenshot 2024-07-24 210807 r](https://github.com/user-attachments/assets/20a6aede-42e4-4558-a1bd-38ad0e3a160a)
 
-  - If you see this page, good! You're on the right page. Go ahead and hit "Create" button to start on your first Vitual machine
+  - If you see this page, good! You're on the right page. Go ahead and hit "Create" button to start on your first Vitual machine.
 ![Screenshot 2024-07-24 210842 r](https://github.com/user-attachments/assets/7479bc25-d2c6-460d-b241-22b296e559da)
 
   - A popup should appear once you hit the "Create" button similar to the image below.
-  - Click on "Azure Vitual machine"
-
+  - Click on "Azure Vitual machine".
 ![Screenshot 2024-07-24 210857 r](https://github.com/user-attachments/assets/c5825af2-8daf-4eb9-80d6-97253fe810f2)
 
+  - Under "Resource group" choose the one you have already created.
+  - Pick your Virtual machine name.
+  - For this VM, we are going to choose the Window 10 Pro (free servies eligible) for our image
+  - Then for Region, this part is a little tricky because depending on the Region you choose, certain VM (virtual machines) are only  available to a specific "Region". You might have to adjust your Region to try and find a VM that is under $150~ per month.  Don't worry much about the VM's specs since we're not doing anying strenuous that will cause an issue in this tutorial. The reason we are trying to find a VM under $100 or somewhere close to this, is to save your free Azure credits if you happen to forget to delete your resource group once you're done with this tutorial. Don't worry, I'll make a reminder later in this tutorial.
+  - Once you chosen your size, make your username and pw and remember them! 
+![Screenshot 2024-07-24 213031](https://github.com/user-attachments/assets/708d7e57-d198-46d3-a6c5-38896558ec83)
+![Screenshot 2024-07-24 213235](https://github.com/user-attachments/assets/7c09f24e-cbff-4df1-accf-6b16fbb9a117)
+
+  - Check off the box on the bottom next to "I confirm I have an eligible window 10/11..."
+  - Then click on "Review + create"
+    
+![Screenshot 2024-07-24 213254 r](https://github.com/user-attachments/assets/9e9b1a1c-b912-4784-888d-56cf3696baf1)
 
 
-  - 
-  - 
+  -  Then once you see this image, you can finally see your VM being created in real time!
+![Screenshot 2024-07-24 214050](https://github.com/user-attachments/assets/ad0ad9ae-8a14-4df7-9056-0c8258a343a3)
+
+  -  
   - 
   - 
   - 
