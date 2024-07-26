@@ -23,7 +23,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 1. Create a resource group
    
-  - In the azure portal, you will start by clicking on "Resurce groups"
+  - In the Azure portal, you will start by clicking on "Resurce groups"
   <p align="center">
   <img src="https://i.imgur.com/QfyAlBl.png" height="80%" width="80%" alt="Create a resource group steps"/> 
   </p>
