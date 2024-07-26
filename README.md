@@ -21,28 +21,62 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Steps</h2>
 
-- Step 1
-  <p> Create a resource group </p>
-  
+1. Create a resource group
+  - In the azure portal, you will start by clicking on "Resurce groups"
+
   <p align="center">
-  <img src="https://i.imgur.com/QfyAlBl.png" height="50%" width="50%" alt="Create a resource group steps"/> 
-  </p>
-  
-  <p align="center">
-  <img src="https://i.imgur.com/tRtZnw7.png" height="50%" width="50%" alt="Create a resource group steps"/>
+  <img src="https://i.imgur.com/QfyAlBl.png" height="80%" width="80%" alt="Create a resource group steps"/> 
   </p>
 
-  <p>In the image below, the box "Resource group" will be the name of your resource group. I chose mine to be RG-Lab-02 </p>
-  <p>Then in "region" box,  will be the sever hosting our resource group. I chose South Central US since this is the clostest to me.</p>
+  - Once you see the page like the image below, go a head and click on "Create"
+ <p align="center">
+  <img src="https://i.imgur.com/tRtZnw7.png" height="80%" width="80%" alt="Create a resource group steps"/>
+  </p>
+
   
-  <p align="center">
+  -  In the box "Resource group" will be the name of your resource group. I chose mine to be RG-Lab-02
+  -  Then in "region" box,  will be the sever hosting our resource group. I chose South Central US since this is the clostest to me.
+  -  Once you are done will out the boxes, click on "Review and create"
+<p align="center">
   <img src="https://i.imgur.com/mpJPego.png" height="50%" width="50%" alt="Create a resource group steps"/> 
   </p>
-  
-  <p align="center">
+
+  -  Alright! Once you click on "Create", you have successfully created a Resrouce group in Azure! Good stuff~!
+   <p align="center">
   <img src="https://i.imgur.com/oM3IWzI.png" height="50%" width="50%" alt="Create a resource group steps"/> 
   </p>
-  <p>Alright! Creating a Resource group is done! </p>
+
+  
+  -  
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+  
+
+
+
+
+
+
+
+  - 
+ 
+
+
+  
+ 
 
   
 - Step 2
