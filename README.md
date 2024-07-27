@@ -82,7 +82,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ![Screenshot 2024-07-24 214050](https://github.com/user-attachments/assets/ad0ad9ae-8a14-4df7-9056-0c8258a343a3)
 
 
- <h3> 3. Going into our VMs and using wireshark </h3>
+ <h3> 3. Going into our VMs </h3>
     
   -  A couple things to talk about this next step,
        - We're going to mostly use VM1, VM2, and VM1-nsg in this tutorial
@@ -96,10 +96,21 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ![Screenshot 2024-07-24 215322 r](https://github.com/user-attachments/assets/8cf2f063-0a9c-4a39-9e76-ed4e30d0cf8f)
 
 
-  -  
-  - 
-  - 
-  - 
+  -  Finally going to remote access our VM!
+  -  Go to your start menu and type in "Remote" and the app should appear
+![Screenshot 2024-07-27 115710](https://github.com/user-attachments/assets/9e63bc80-81de-4280-824e-43fd96fffb43)
+
+  - Here, we're going to put in VM1 Public IP address, and press "Connect" once you have done so. 
+ ![Screenshot 2024-07-24 215603](https://github.com/user-attachments/assets/826701a2-15f4-4f31-b111-9c89794c05af)
+
+  - A pop up will appear, just press "Yes" for this.
+![Screenshot 2024-07-24 215626 r](https://github.com/user-attachments/assets/acb9aa71-ffca-4133-9944-dbd8e801daf2)
+
+  - And we're In our VM!
+  - The blue bar with the VM's IP address will indicate that you are in the VM.
+![Screenshot 2024-07-24 215707 r](https://github.com/user-attachments/assets/dbd31599-ed35-445c-a06f-78944cc9fea9)
+
+  
   - 
   - 
   - 
