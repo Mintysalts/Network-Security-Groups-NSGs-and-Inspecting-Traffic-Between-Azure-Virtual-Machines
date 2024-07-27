@@ -21,8 +21,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Steps</h2>
 
-1. Create a resource group
-   
+<h3> 1. Create a resource group </h3>
+
   - In the Azure portal, you will start by clicking on "Resurce groups".
   <p align="center">
   <img src="https://i.imgur.com/QfyAlBl.png" height="80%" width="80%" alt="Create a resource group steps"/> 
@@ -46,7 +46,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <img src="https://i.imgur.com/oM3IWzI.png" height="50%" width="50%" alt="Create a resource group steps"/> 
   </p>
 
-2. Create two Vitual machines. One in Windows 10 (21H2) and the other in Ubuntu Server 20.04.
+<h3> 2. Create two Vitual machines. One in Windows 10 (21H2) and the other in Ubuntu Server 20.04. </h3>
 
   -  Go to the Search bar to type in vitual machines and the option should appear.
 ![Screenshot 2024-07-24 210807 r](https://github.com/user-attachments/assets/20a6aede-42e4-4558-a1bd-38ad0e3a160a)
@@ -56,13 +56,19 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
   - A popup should appear once you hit the "Create" button similar to the image below.
   - Click on "Azure Vitual machine".
+
 ![Screenshot 2024-07-24 210857 r](https://github.com/user-attachments/assets/c5825af2-8daf-4eb9-80d6-97253fe810f2)
 
   - Under "Resource group" choose the one you have already created.
   - Pick your Virtual machine name.
   - For this VM, we are going to choose the Window 10 Pro (free servies eligible) for our image
-  - Then for Region, this part is a little tricky because depending on the Region you choose, certain VM (virtual machines) are only  available to a specific "Region". You might have to adjust your Region to try and find a VM that is under $150~ per month.  Don't worry much about the VM's specs since we're not doing anying strenuous that will cause an issue in this tutorial. The reason we are trying to find a VM under $100 or somewhere close to this, is to save your free Azure credits if you happen to forget to delete your resource group once you're done with this tutorial. Don't worry, I'll make a reminder later in this tutorial.
-  - Once you chosen your size, make your username and pw and remember them! 
+> [!NOTE]
+> Then for Region, this part is a little tricky because depending on the Region you choose, certain VM (virtual machines) are only  available to a specific "Region". You might have to adjust your Region to try and find a VM that is under $150~ per month.  Don't worry much about the VM's specs since we're not doing anying strenuous that will cause an issue in this tutorial. The reason we are trying to find a VM under $100 or somewhere close to this, is to save your free Azure credits if you happen to forget to delete your resource group once you're done with this tutorial. Don't worry, I'll make a reminder later in this tutorial.
+  - Once you chosen your size, make your username and password.
+
+> [!IMPORTANT]
+> Remember to save the username and password some where! Because if you happen to forget, you are going to remake the VMs again.
+
 ![Screenshot 2024-07-24 213031](https://github.com/user-attachments/assets/708d7e57-d198-46d3-a6c5-38896558ec83)
 ![Screenshot 2024-07-24 213235](https://github.com/user-attachments/assets/7c09f24e-cbff-4df1-accf-6b16fbb9a117)
 
@@ -75,8 +81,22 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   -  Then once you see this image, you can finally see your VM being created in real time!
 ![Screenshot 2024-07-24 214050](https://github.com/user-attachments/assets/ad0ad9ae-8a14-4df7-9056-0c8258a343a3)
 
+
+ <h3> 3. Going into our VMs and using wireshark </h3>
+    
+  -  A couple things to talk about this next step,
+       - We're going to mostly use VM1, VM2, and VM1-nsg in this tutorial
+       - VM1-nsg is VM1's firewall that we will configure to our liking
+![Screenshot 2024-07-24 215259 r](https://github.com/user-attachments/assets/b80e119c-fb1e-4fd9-a8d8-0631b524edaf)
+
+
+  -  We're going into VM1, here is all the infomation about this VM
+> [!IMPORTANT]
+> Save VM1 Public IP address and Private IP address on notepad or the same place you're saving both VM username and PW. We will need both IP address soon!
+![Screenshot 2024-07-24 215322 r](https://github.com/user-attachments/assets/8cf2f063-0a9c-4a39-9e76-ed4e30d0cf8f)
+
+
   -  
-  - 
   - 
   - 
   - 
