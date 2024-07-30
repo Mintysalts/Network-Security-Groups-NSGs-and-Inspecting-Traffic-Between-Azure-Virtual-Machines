@@ -156,7 +156,7 @@ In this showcase, we observe various network traffic to and from Azure Virtual M
   - Then hit save. 
 ![Screenshot 2024-07-24 221515](https://github.com/user-attachments/assets/2fbf666b-4dbe-4167-93b9-7f36d4dfc8ee)
 
-  - Finally, if you done everything right you should see the image below saying "request timed out" in the console command and no response found in Wireshark
+  - Finally, if you done everything right you should see the image below saying "request timed out" in the console command and no response found in Wireshark.
 ![Screenshot 2024-07-24 221614 r](https://github.com/user-attachments/assets/70916314-e974-4521-baaf-1fdb240696fe)
 
 
@@ -171,8 +171,9 @@ In this showcase, we observe various network traffic to and from Azure Virtual M
   - 
 
   
-
-
+> [!IMPORTANT]
+> Please remember to delete your resource groups once your done with this showcase! 
+![Screenshot 2024-07-24 222938 r](https://github.com/user-attachments/assets/d157c8fa-0aed-4afd-93b1-643842d195ea)
 
 
 
