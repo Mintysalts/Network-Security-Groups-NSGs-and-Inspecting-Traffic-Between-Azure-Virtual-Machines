@@ -134,7 +134,6 @@ In this showcase, we observe various network traffic to and from Azure Virtual M
 
   -  To ping VM2, we're going to need the private IP address of VM2.
 ![Screenshot 2024-07-24 220740 r](https://github.com/user-attachments/assets/b4c2f31a-35b7-4331-abe1-6af60bf55845)
-
     
   - Go to your console command and type in ping then VM2's private address ash shown below
 ![Screenshot 2024-07-24 220939 r](https://github.com/user-attachments/assets/0088965b-9cec-4945-a95b-5ca63e11f868)
@@ -144,64 +143,38 @@ In this showcase, we observe various network traffic to and from Azure Virtual M
 ![Screenshot 2024-07-24 220939 r](https://github.com/user-attachments/assets/e052c980-782b-4af0-aaaa-2a02350bfc77)
 
   - Now we can ping between two VM, we're are going to block VM2 ping by using VM's 1 nsg
-  -  First, we're going to continuously ping by typing in VM2 IP address and "-t"
+  - First, we're going to continuously ping by typing in VM2 IP address and "-t"
 ![Screenshot 2024-07-24 221116 r](https://github.com/user-attachments/assets/29aa48d9-7cf0-48de-a7af-88cf61771fe0)
 
-  
+  - We're going back to our resource group and seleceting VM1's nsg
+![Screenshot 2024-07-24 221213 r](https://github.com/user-attachments/assets/6fa9a5cf-1b9b-4eeb-a0ef-1f0ffb5cfcff)
+
+  - Then we going to click on Inbound sercuitry rules
+![Screenshot 2024-07-24 221307 r](https://github.com/user-attachments/assets/e92adc9a-351e-4dcc-9206-978968d260d9)
+
+  - Make sure to type in 200 for the prioity and add a name for your security rule.
+  - Then hit save. 
+![Screenshot 2024-07-24 221515](https://github.com/user-attachments/assets/2fbf666b-4dbe-4167-93b9-7f36d4dfc8ee)
+
+  - Finally, if you done everything right you should see the image below saying "request timed out" in the console command and no response found in Wireshark
+![Screenshot 2024-07-24 221614 r](https://github.com/user-attachments/assets/70916314-e974-4521-baaf-1fdb240696fe)
+
+
   - 
   - 
   - 
   - 
   - 
-
-  
-
-
-
-
-
-
-
   - 
- 
-
-
-  
- 
-
-  
-- Step 2
-
-- Step 3
-- Step 4
-
-![image](https://github.com/user-attachments/assets/84dcdc12-2410-48ea-a3a8-b3c462fd8d33)
+  - 
+  - 
+  - 
 
   
 
-<h2>Actions and Observations</h2>
 
-<p>
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+
