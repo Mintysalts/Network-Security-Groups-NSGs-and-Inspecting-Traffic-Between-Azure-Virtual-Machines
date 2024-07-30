@@ -3,7 +3,7 @@
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+In this showcase, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -106,13 +106,44 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - A pop up will appear, just press "Yes" for this.
 ![Screenshot 2024-07-24 215626 r](https://github.com/user-attachments/assets/acb9aa71-ffca-4133-9944-dbd8e801daf2)
 
-  - And we're In our VM!
+  - And we're in our VM!
   - The blue bar with the VM's IP address will indicate that you are in the VM.
+  - Turn everything off and start your new VM! 
 ![Screenshot 2024-07-24 215707 r](https://github.com/user-attachments/assets/dbd31599-ed35-445c-a06f-78944cc9fea9)
 
-  
-  - 
-  - 
+ <h3> 4. Installing Wireshark and learning a little about this program. </h3>
+
+  - Go to Mircrosoft Edge and download Wireshark.
+  - We're going to download the Windows x64 Installer
+![Screenshot 2024-07-24 215844 r](https://github.com/user-attachments/assets/9eb4f7a9-81de-45c0-903a-6e49a2de43eb)
+
+  - Once you installed and have Wireshark running, press the button to boxed in red start the program.
+![Screenshot 2024-07-26 212834 r](https://github.com/user-attachments/assets/76c6af2a-8923-455b-ab3b-81e8d2b9389c)
+
+  - Here, we can see everything that goes on behind the scene of our network within our VM!
+  - What cool about this is that in the red box, shows the different OSI layers.
+      - Starting from the top, is the OSI physical layer 
+      - Next is the Data link layer.
+      - Next is the Network layer.
+      - Finally is the Transport layer.
+   ![Screenshot 2024-07-24 220617](https://github.com/user-attachments/assets/98b71168-75df-4821-9de7-b523b99e20a5)
+
+  - Since we're now seeing EVEYTHING that is comming through the Ethernet, we're going to filter the traffic by typing in icmp. Icmp is the protocal that ping uses.
+  - Ping is used for the connectivity to different host on the network.
+![Screenshot 2024-07-24 220908 R](https://github.com/user-attachments/assets/96a2bb8c-dcab-417e-845f-34235ebc1372)
+
+  -  To ping VM2, we're going to need the private IP address of VM2.
+![Screenshot 2024-07-24 220740 r](https://github.com/user-attachments/assets/b4c2f31a-35b7-4331-abe1-6af60bf55845)
+
+    
+  - Go to your console command and type in ping then VM2's private address ash shown below
+![Screenshot 2024-07-24 220939 r](https://github.com/user-attachments/assets/0088965b-9cec-4945-a95b-5ca63e11f868)
+
+  - After you ping, you should see in the console command and Wireshark syncing with request and reply between both VMs.
+![Screenshot 2024-07-24 220908 r](https://github.com/user-attachments/assets/5bbc350d-0df7-4d16-9749-e1e78125598a)
+![Screenshot 2024-07-24 220939 r](https://github.com/user-attachments/assets/e052c980-782b-4af0-aaaa-2a02350bfc77)
+
+  - Now we can ping between two VM, we're are going to block  
   - 
   - 
   - 
