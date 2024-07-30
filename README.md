@@ -143,7 +143,11 @@ In this showcase, we observe various network traffic to and from Azure Virtual M
 ![Screenshot 2024-07-24 220908 r](https://github.com/user-attachments/assets/5bbc350d-0df7-4d16-9749-e1e78125598a)
 ![Screenshot 2024-07-24 220939 r](https://github.com/user-attachments/assets/e052c980-782b-4af0-aaaa-2a02350bfc77)
 
-  - Now we can ping between two VM, we're are going to block  
+  - Now we can ping between two VM, we're are going to block VM2 ping by using VM's 1 nsg
+  -  First, we're going to continuously ping by typing in VM2 IP address and "-t"
+![Screenshot 2024-07-24 221116 r](https://github.com/user-attachments/assets/29aa48d9-7cf0-48de-a7af-88cf61771fe0)
+
+  
   - 
   - 
   - 
