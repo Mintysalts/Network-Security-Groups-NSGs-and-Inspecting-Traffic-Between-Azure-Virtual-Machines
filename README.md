@@ -63,7 +63,7 @@ In this showcase, we observe various network traffic to and from Azure Virtual M
   - Pick your Virtual machine name.
   - For this VM, we are going to choose the Window 10 Pro (free servies eligible) for our image
 > [!NOTE]
-> Then for Region, this part is a little tricky because depending on the Region you choose, certain VM (virtual machines) are only  available to a specific "Region". You might have to adjust your Region to try and find a VM that is under $150~ per month.  Don't worry much about the VM's specs since we're not doing anying strenuous that will cause an issue in this tutorial. The reason we are trying to find a VM under $100 or somewhere close to this, is to save your free Azure credits if you happen to forget to delete your resource group once you're done with this tutorial. Don't worry, I'll make a reminder later in this tutorial.
+> Then for Region, this part is a little tricky because depending on the Region you choose, certain VM (virtual machines) are only  available to a specific "Region". You might have to adjust your Region to try and find a VM that is under $150~ per month.  Don't worry much about the VM's specs since we're not doing anying strenuous that will cause an issue in this showcase. The reason we are trying to find a VM under $100 or somewhere close to this, is to save your free Azure credits if you happen to forget to delete your resource group once you're done with this showcase. Don't worry, I'll make a reminder later in this showcase.
   - Once you chosen your size, make your username and password.
 
 > [!IMPORTANT]
@@ -85,7 +85,7 @@ In this showcase, we observe various network traffic to and from Azure Virtual M
  <h3> 3. Going into our VMs </h3>
     
   -  A couple things to talk about this next step,
-       - We're going to mostly use VM1, VM2, and VM1-nsg in this tutorial
+       - We're going to mostly use VM1, VM2, and VM1-nsg in this showcase
        - VM1-nsg is VM1's firewall that we will configure to our liking
 ![Screenshot 2024-07-24 215259 r](https://github.com/user-attachments/assets/b80e119c-fb1e-4fd9-a8d8-0631b524edaf)
 
@@ -152,27 +152,32 @@ In this showcase, we observe various network traffic to and from Azure Virtual M
   - Then we going to click on Inbound sercuitry rules
 ![Screenshot 2024-07-24 221307 r](https://github.com/user-attachments/assets/e92adc9a-351e-4dcc-9206-978968d260d9)
 
-  - Make sure to type in 200 for the prioity and add a name for your security rule.
+  - Make sure to type in 200 for the prioity, add a name for your security rule, and check deny.
   - Then hit save. 
 ![Screenshot 2024-07-24 221515](https://github.com/user-attachments/assets/2fbf666b-4dbe-4167-93b9-7f36d4dfc8ee)
 
   - Finally, if you done everything right you should see the image below saying "request timed out" in the console command and no response found in Wireshark.
 ![Screenshot 2024-07-24 221614 r](https://github.com/user-attachments/assets/70916314-e974-4521-baaf-1fdb240696fe)
 
+- Then lets go a head and allow the ping to cross between the two VMs again by going back to the "Inbound security rules". Then press "allow" in the protocal that you made in the previous step.
+![Screenshot 2024-07-31 005307 r](https://github.com/user-attachments/assets/88be5b6a-413a-40c6-8a39-54c5a74b382d)
 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+ <h3> 4. Showcasing using ssh in between a windows OS and Linux. </h3>
+  - Used ssh to log into our VM2 Linux machine
+  
+![Screenshot 2024-07-24 222307](https://github.com/user-attachments/assets/46d5da79-0a50-4c0b-b428-87506866b006)
+
+  - Confirmation that we are able to log into VM2 by seeing the green text "lab02@VM2"
+![Screenshot 2024-07-24 222425](https://github.com/user-attachments/assets/b903545e-6822-4ac3-a46c-5ae55456f1b5)
+
+
+  - Tried out different commands!
+![Screenshot 2024-07-24 222721](https://github.com/user-attachments/assets/d142ff6a-e8ae-4b37-9d6f-5115e1eab128)
+
 
   
 > [!IMPORTANT]
-> Please remember to delete your resource groups once your done with this showcase! 
+> Please remember to delete your resource groups if you were following this showcase! 
 ![Screenshot 2024-07-24 222938 r](https://github.com/user-attachments/assets/d157c8fa-0aed-4afd-93b1-643842d195ea)
 
 
