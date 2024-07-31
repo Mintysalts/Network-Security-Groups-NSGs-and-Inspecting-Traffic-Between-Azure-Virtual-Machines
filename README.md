@@ -160,6 +160,7 @@ In this showcase, we observe various network traffic to and from Azure Virtual M
 ![Screenshot 2024-07-24 221614 r](https://github.com/user-attachments/assets/70916314-e974-4521-baaf-1fdb240696fe)
 
 - Then lets go a head and allow the ping to cross between the two VMs again by going back to the "Inbound security rules". Then press "allow" in the protocal that you made in the previous step.
+
 ![Screenshot 2024-07-31 005307 r](https://github.com/user-attachments/assets/88be5b6a-413a-40c6-8a39-54c5a74b382d)
 
  <h3> 4. Showcasing using ssh in between a windows OS and Linux. </h3>
